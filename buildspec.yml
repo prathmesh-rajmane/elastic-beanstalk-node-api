@@ -6,6 +6,9 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
+      - echo Cleaning Code..
+      - npm ci
+    commands:
       - echo Installing Mocha...
       - npm install -g mocha
   pre_build:
