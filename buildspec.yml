@@ -14,7 +14,7 @@ phases:
       - npm install
   build:
     commands:
-      - npm run build
+      - npm run build --if-present
       - echo Build started on `date`
       - echo Compiling the Node.js code
       - npm run test
